@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AAYKAY helps Indian businesses discover government tenders, understand eligibility and access professional tender and procurement consultancy.">
+<title>AAYKAY | Tender & Procurement Intelligence</title>
+<style>
+:root {
+  --navy:#102746;
+  --blue:#1769aa;
+  --teal:#13a89e;
+  --light:#f4f7fb;
+  --text:#25364b;
+}
+* {box-sizing:border-box}
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  color:var(--text);
+  line-height:1.6;
+  background:white;
+}
+header {
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #e8edf3;
+}
+.logo {font-size:23px;font-weight:800;color:var(--navy)}
+.logo span {color:var(--teal)}
+nav a {
+  margin-left:17px;
+  color:var(--navy);
+  text-decoration:none;
+  font-size:14px;
+}
+.hero {
+  padding:75px 8%;
+  background:linear-gradient(120deg,#edf5fc,#f5fbfa);
+  text-align:center;
+}
+.tag {
+  color:var(--teal);
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:1px;
+}
+h1 {
+  color:var(--navy);
+  font-size:clamp(34px,5vw,54px);
+  line-height:1.15;
+  max-width:850px;
+  margin:20px auto;
+}
+.hero p {
+  max-width:720px;
+  margin:18px auto 28px;
+  font-size:17px;
+}
+.search {
+  max-width:650px;
+  margin:25px auto;
+  display:flex;
+  gap:8px;
+  background:white;
+  padding:8px;
+  border:1px solid #dce5ef;
+  border-radius:10px;
+}
+.search input {
+  flex:1;
+  min-width:0;
+  border:0;
+  padding:12px;
+  font-size:15px;
+  outline:none;
+}
+.btn {
+  display:inline-block;
+  background:var(--blue);
+  color:white;
+  padding:13px 21px;
+  border-radius:7px;
+  text-decoration:none;
+  border:0;
+  font-weight:bold;
+  cursor:pointer;
+}
+.btn.secondary {background:var(--teal)}
+.actions {display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+section {padding:65px 8%}
+.section-title {text-align:center;margin-bottom:35px}
+.section-title h2 {color:var(--navy);font-size:30px}
+.section-title p {color:#63748a}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+.card {
+  padding:25px;
+  background:white;
+  border:1px solid #e4eaf1;
+  border-radius:12px;
+}
+.card h3 {color:var(--navy);margin-top:0}
+.card p {color:#627187;font-size:14px}
+.light {background:var(--light)}
+.cta {
+  text-align:center;
+  background:var(--navy);
+  color:white;
+  padding:60px 8%;
+}
+.cta h2 {font-size:30px}
+.cta p {color:#d6e2ef}
+footer {
+  background:#0b1c31;
+  color:#cbd6e2;
+  padding:30px 8%;
+  text-align:center;
+  font-size:13px;
+}
+footer strong {color:white}
+@media(max-width:650px) {
+  header {padding:15px 5%;flex-wrap:wrap;gap:10px}
+  nav {width:100%;display:flex;flex-wrap:wrap;gap:12px}
+  nav a {margin:0}
+  .hero {padding:55px 6%}
+  section {padding:48px 6%}
+  .search {flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">AAYKAY<span>.</span></div>
+  <nav>
+    <a href="#tools">Tools</a>
+    <a href="#tenders">Tenders</a>
+    <a href="#consultancy">Consultancy</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="tag">TENDER & PROCUREMENT INTELLIGENCE</div>
+  <h1>Your Partner in Government Tenders & Procurement</h1>
+  <p>Helping manufacturers, MSMEs, EPC companies, contractors and suppliers navigate government tenders, procurement portals and business opportunities across India.</p>
+
+  <div class="search">
+    <input type="text" placeholder="Search tenders, industries or resources">
+    <button class="btn" onclick="alert('Tender search will be introduced in a future release.')">Search</button>
+  </div>
+
+  <div class="actions">
+    <a class="btn" href="#tools">Explore Tools</a>
+    <a class="btn secondary" href="#consultancy">Get Tender Consultancy</a>
+  </div>
+</div>
+
+<section id="tools">
+  <div class="section-title">
+    <h2>Smart Tender Tools</h2>
+    <p>Practical resources to simplify tender preparation and evaluation.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>AI Tender Analyzer</h3><p>Understand tender documents, eligibility, important dates and mandatory requirements.</p></div>
+    <div class="card"><h3>EMD Calculator</h3><p>Calculate Earnest Money Deposit requirements for your tender.</p></div>
+    <div class="card"><h3>PBG Calculator</h3><p>Estimate Performance Bank Guarantee amounts.</p></div>
+    <div class="card"><h3>Eligibility Checker</h3><p>Review turnover and experience requirements against your business profile.</p></div>
+  </div>
+</section>
+
+<section class="light" id="tenders">
+  <div class="section-title">
+    <h2>Discover Tender Opportunities</h2>
+    <p>Our planned tender discovery section will help businesses explore opportunities across India.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Solar & Renewable Energy</h3><p>Explore opportunities in solar, EPC and renewable energy.</p></div>
+    <div class="card"><h3>Electrical & Electronics</h3><p>Explore electrical, lighting and electronic procurement.</p></div>
+    <div class="card"><h3>Infrastructure & EPC</h3><p>Explore infrastructure, engineering and construction opportunities.</p></div>
+  </div>
+</section>
+
+<section id="consultancy">
+  <div class="section-title">
+    <h2>End-to-End Tender Consultancy</h2>
+    <p>Professional support throughout the tendering lifecycle.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Tender Identification</h3><p>Opportunity discovery and initial feasibility assessment.</p></div>
+    <div class="card"><h3>Eligibility & PQC Analysis</h3><p>Review qualification criteria, turnover and experience requirements.</p></div>
+    <div class="card"><h3>Documentation & Compliance</h3><p>Mandatory document checklists and compliance matrix preparation.</p></div>
+    <div class="card"><h3>Bid Preparation & Submission</h3><p>Technical and commercial documentation and online submission assistance.</p></div>
+    <div class="card"><h3>EMD, BG & PBG Support</h3><p>Documentation and coordination support for bid and performance securities.</p></div>
+    <div class="card"><h3>Post-Bid Support</h3><p>Clarification and technical evaluation support.</p></div>
+  </div>
+</section>
+
+<section class="light" id="about">
+  <div class="section-title">
+    <h2>About AAYKAY Consulting</h2>
+    <p>Combining tendering expertise, procurement knowledge and digital business solutions to help Indian businesses participate more effectively in government procurement.</p>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>Have a Tender to Evaluate?</h2>
+  <p>Connect with AAYKAY for tender and procurement consultancy.</p>
+  <a class="btn secondary" href="mailto:info@aaykay.com">Contact AAYKAY</a>
+</div>
+
+<footer>
+  <strong>AAYKAY CONSULTING</strong>
+  <p>Global Tender, Procurement & Digital Business Solutions</p>
+  <p>© 2026 AAYKAY Consulting. All rights reserved.</p>
+  <p>Website prototype. Tender listings and AI tools are not yet live.</p>
+</footer>
+
+</body>
+</html>
